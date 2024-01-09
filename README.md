@@ -1,0 +1,1 @@
+# terraform-bitbucket-ips
