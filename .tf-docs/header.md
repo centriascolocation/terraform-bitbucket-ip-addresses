@@ -19,7 +19,8 @@ module "bitbucket_ips" {
 
 ```
 module "bitbucket_ips" {
-  source  = "centriascolocation/terraform-bitbucket-ips"
+  source  = "centriascolocation/ip-addresses/bitbucket"
+  version = "1.0.0"
 
   region = "eu-central-1"
   direction = "egress"
