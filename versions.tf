@@ -2,6 +2,9 @@ terraform {
   required_version = ">= 0.12"
 
   required_providers {
-    http = ">= 3.4.1"
+    http = {
+      source  = "hashicorp/http"
+      version = ">= 3.4.1"
+    }
   }
 }
