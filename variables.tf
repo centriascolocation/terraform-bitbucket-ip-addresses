@@ -1,5 +1,5 @@
 variable "region" {
-  description = "Get a list form specific region"
+  description = "Get a list form specific region, default 'eu-central-1'"
   type        = string
   default     = "eu-central-1"
   validation {

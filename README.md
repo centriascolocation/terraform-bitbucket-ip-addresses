@@ -23,7 +23,7 @@ No modules.
 |------|-------------|------|
 | <a name="input_direction"></a> [direction](#input_direction) | Select egress or ingress | `string` |
 | <a name="input_product"></a> [product](#input_product) | Select atlassian product, default is bitbucket | `string` |
-| <a name="input_region"></a> [region](#input_region) | Get a list form specific region | `string` |
+| <a name="input_region"></a> [region](#input_region) | Get a list form specific region, default 'eu-central-1' | `string` |
 
 #### Outputs
 
