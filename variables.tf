@@ -3,7 +3,7 @@ variable "region" {
   type        = string
   default     = "eu-central-1"
   validation {
-    error_message = "You need a region"
+    error_message = "You need to select a valid region."
     condition = contains(
       [
         "af-south-1",
@@ -45,7 +45,7 @@ variable "product" {
   default     = "bitbucket"
   type        = string
   validation {
-    error_message = "Err: Please select a atlassian product!"
+    error_message = "Please select a valid atlassian product."
     condition = contains(
       [
         "confluence",
@@ -66,7 +66,7 @@ variable "direction" {
   type        = string
   default     = "egress"
   validation {
-    error_message = "Err: Only ingress or egress allowed"
+    error_message = "Only ingress or egress allowed."
     condition     = contains(["ingress", "egress"], var.direction)
   }
 }
