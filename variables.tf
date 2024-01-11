@@ -1,7 +1,7 @@
 variable "region" {
   description = "Get a list form specific region"
   type        = string
-  default     = ""
+  default     = "eu-central-1"
   validation {
     error_message = "You need a region"
     condition = contains(
