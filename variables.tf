@@ -43,6 +43,7 @@ variable "region" {
 variable "product" {
   description = "Select atlassian product, default is bitbucket"
   default     = "bitbucket"
+  type        = string
   validation {
     error_message = "Err: Please select a atlassian product!"
     condition = contains(
