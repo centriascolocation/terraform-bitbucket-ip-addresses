@@ -61,7 +61,7 @@ No modules.
 | Name | Company | Contact            |
 |------|---------|--------------------|
 | Dirk Piethan | Centrias Colocation GmbH | dirk@centrias.de   |
-| Christiab Weirich | Centrias Colocation | christian@centrias.de |
+| Christian Weirich | Centrias Colocation | christian@centrias.de |
 
 ### Support
 
